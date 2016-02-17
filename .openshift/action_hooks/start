@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ${OPENSHIFT_REPO_DIR}
-./polipo
+./polipo > ${OPENSHIFT_DATA_DIR}/log
